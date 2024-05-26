@@ -1,3 +1,2 @@
-Just a simple Mindustry mod
-Its Exo
-Prospa!
+Mindustry Exoprosopa Mod, V1.03def
+Unfinished, work in progress
