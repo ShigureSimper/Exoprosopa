@@ -1,0 +1,23 @@
+type: beamDrill
+name: Ore Extractor
+description: Extract ore slowly using laser, requires elixir and power to operate.
+range: 5
+tier: 2
+size: 3
+optionalBoostIntensity: 1
+drillTime: 200
+ambientSound: drill
+ambientSoundVolume: 0.08
+hasLiquids: true
+consumes: {
+  liquid: 02b-01-bioliquid/0.16666666667
+  power: 0.5
+}
+category: production
+research: 04d-01-pressure-generator
+researchCost: [
+  01a-01-item-cobalt/25
+]
+requirements: [
+  01a-01-item-cobalt/50
+]

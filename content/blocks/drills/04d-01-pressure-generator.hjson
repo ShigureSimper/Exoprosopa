@@ -1,0 +1,27 @@
+type: ThermalGenerator
+size: 3
+attribute: steam
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 8
+powerProduction: 0.222223
+squareSprite: false
+category: production
+research: 11k-01-core-apex
+requirements: [
+  01a-01-item-cobalt/25
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawBlurSpin
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 5
+    }
+  ]
+}
