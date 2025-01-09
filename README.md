@@ -1,2 +1,3 @@
-Mindustry Exoprosopa Mod, V1.03def
-Unfinished, work in progress
+Exoprosopa : A Mindustry Mod
+
+h
