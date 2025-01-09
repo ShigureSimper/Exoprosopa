@@ -1,0 +1,6 @@
+name: Miasma
+description: Uncontrollable mass of sulfuric acid from elixir.
+boilPoint: 1
+color: B979BD
+heatCapacity: 0.3
+gasColor: d9e1e6E6
