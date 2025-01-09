@@ -1,0 +1,6 @@
+hardness: 2
+cost: 0.2
+lowPriority: true
+research: 01a-03-item-anthracite
+color: 6793D0
+hiddenOnPlanets: [serpulo, erekir]
