@@ -1,0 +1,13 @@
+type: Duct
+size: 1
+health: 40
+speed: 10
+requirements: [
+  01a-01-item-cobalt/2
+]
+research: 11k-01-core-apex
+researchCost: [
+  01a-01-item-cobalt/20
+]
+category: distribution
+bridgeReplacement: 05e-07-mechanical-bridge

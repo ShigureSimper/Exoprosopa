@@ -1,0 +1,14 @@
+type: Sorter
+size: 1
+health: 65
+requirements: [
+  01a-01-item-cobalt/2
+  01a-02-item-nickel/6
+]
+category: distribution
+squareSprite: false
+research: 05e-07-mechanical-bridge
+researchCost: [
+  01a-01-item-cobalt/70
+  01a-02-item-nickel/10
+]

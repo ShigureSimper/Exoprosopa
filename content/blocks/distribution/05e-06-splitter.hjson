@@ -1,0 +1,14 @@
+type: Router
+size: 1
+health: 40
+speed: 6
+itemCapacity: 1
+requirements: [
+  01a-01-item-cobalt/3
+]
+category: distribution
+squareSprite: false
+research: 05e-01-transport-pipe
+researchCost: [
+  01a-01-item-cobalt/10
+]
