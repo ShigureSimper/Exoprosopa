@@ -8,7 +8,7 @@
 
   Exoprosopa adds third planet into the game alongside with its own techtree and environment.<br><br>
   Exoprosopa is waiting to be colonized again after nuclear retaliation across the supercontinent.<br>
-  Capture and conquer with over 1 campaign maps avaiable on this mod.<br><br>
+  Capture and conquer with over 3 campaign maps avaiable on this mod.<br><br>
   With over 11 item to be discovered, 98 blocks to be researched. and 16 different unit to build!<br>
   Harvest the planet with your technology before Astral infection recover and taken the entire planet.<br><br><br>
   Thankyou for playing this mod! I always sprite nonstop and you can see my progress on #spriting in mindustry official server on discord.<br><br>
