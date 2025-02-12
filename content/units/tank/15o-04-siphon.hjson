@@ -1,0 +1,65 @@
+type: tank
+name: Siphon
+description: Fires powerful cluster shell at enemies.
+hitSize: 30
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 11000
+crushDamage: 12
+armor: 19
+template: TankUnitType
+speed: 0.45
+rotateSpeed: 1
+itemCapacity: 70
+outlineColor: 26262F
+treadPullOffset: 5
+treadRects: [
+  {
+    x: 6
+    y: -24
+    width: 13
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: siphon-weapon
+    reload: 60
+    mirror: false
+    shake: 5
+    rotate: true
+    rotateSpeed: 1.4
+    shootSound: exoripple
+    shoot: {
+     shots: 3
+     shotDelay: 2
+    }
+    bullet: {
+      type: LiquidBulletType
+      orbSize: 4
+      liquid: 02b-02-ichor
+      damage: 165.25
+      pierce: true
+      knockback: 1
+      pierceCap: 3
+      speed: 3
+      lifetime: 60
+      puddleSize: 60
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+      status: 13m-01-breached
+      statusDuration: 240
+      trailColor: 9EC3E5
+      trailChance: -1
+      trailEffect: fluxVapor
+      trailInterval: 2
+      trailRotation: true
+      trailLength: 8
+      trailWidth: 3
+    }
+  }
+]

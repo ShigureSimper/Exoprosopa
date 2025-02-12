@@ -1,0 +1,26 @@
+type: CoreBlock
+name: Core: Apex
+description: Core of the base. Lightly armored and stores decent amount of items.
+size: 4
+health: 5500
+armor: 5
+unitType: 14n-01-anby
+requirements: [
+ 01a-01-item-cobalt/1000
+ 01a-02-item-nickel/700
+ 01a-05-item-aluminium/700
+]
+requiresCoreZone: true
+incinerateNonBuildable: true
+category: effect
+isFirstTier: true
+squareSprite: false
+alwaysUnlocked: true
+itemCapacity: 2500
+unitCapModifier: 15
+research: {
+  planet: exoprosopa
+  root: true
+  name: Exoprosopa
+  requiresUnlock: false
+}

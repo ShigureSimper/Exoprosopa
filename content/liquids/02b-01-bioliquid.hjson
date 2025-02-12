@@ -1,0 +1,7 @@
+boilPoint: 0.5
+name: Elixir
+description: Water that has been polluted by the environment around the exoprosopa, can be filtered for further processing.
+color: D488EA
+heatCapacity: 0.3
+gasColor: d9e1e6E6
+research: 01a-05-item-aluminium

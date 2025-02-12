@@ -1,0 +1,63 @@
+type: tank
+name: Oktarav
+description: Fires piercing bullets at high firerate at enemies.
+hitSize: 20
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 1990
+armor: 7
+template: TankUnitType
+speed: 0.85
+rotateSpeed: 2.4
+itemCapacity: 0
+outlineColor: 26262F
+treadPullOffset: 5
+treadRects: [
+  {
+    x: 6
+    y: -24
+    width: 13
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: oktarav-weapon
+    reload: 20
+    recoil: 1.5
+    mirror: false
+    rotate: true
+    rotateSpeed: 1.25
+    shootSound: normal-shot
+      bullet: { 
+      type: BasicBulletType
+      sprite: missile-large
+      width: 6
+      splashDamageRadius: 20
+      splashDamage: 15.25
+      pierceCap: 1
+      lifetime: 32
+      damage: 39.75
+      speed: 6.5
+      smokeEffect: colorSpark
+      trailColor: 93E2EE
+      trailWidth: 1.5
+      trailLength: 5
+      backColor: 93E2EE
+      hitColor: 93E2EE
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 9
+        sizeFrom: 0
+        sizeTo: 20
+        colorFrom: ffffff
+        colorTo: feb380
+    }
+    }
+  }
+]

@@ -1,0 +1,12 @@
+type: Wall
+name: Large Cobalt Wall
+description: Protects structures from enemy projectiles, lightly armored.
+size: 2
+armor: 6
+health: 1920
+requirements: [
+  01a-01-item-cobalt/24
+]
+research: 08h-01-cobalt-wall-small
+researchCostMultiplier: 0.5
+category: defense

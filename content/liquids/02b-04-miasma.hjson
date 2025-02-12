@@ -1,0 +1,14 @@
+name: Miasma
+description: Uncontrollable mass of sulfuric acid from elixir, can spread into elixir.
+colorFrom: B979BD
+colorTo: A865B4
+color: B979BD
+heatCapacity: 0.35
+temperature: 0.7
+viscosity: 0.95
+explosiveness: 0.6
+capPuddles: false
+spreadTarget: 02b-01-bioliquid
+blockReactive: false
+gasColor: d9e1e6E6
+type: cellLiquid

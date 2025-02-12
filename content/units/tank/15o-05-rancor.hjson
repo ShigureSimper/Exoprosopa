@@ -1,0 +1,78 @@
+type: tank
+name: Rancor
+description: Fires powerful cluster shell at enemies.
+hitSize: 50
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 54000
+crushDamage: 30
+armor: 60
+template: TankUnitType
+speed: 0.35
+rotateSpeed: 0.7
+itemCapacity: 110
+outlineColor: 26262F
+treadPullOffset: 5
+treadRects: [
+  {
+    x: 6
+    y: -24
+    width: 13
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: rancor-weapon
+    reload: 180
+    mirror: false
+    shake: 10
+    rotate: true
+    rotateSpeed: 1
+    shootSound: exoripple
+    bullet: {
+      type: ArtilleryBulletType
+      frontColor: 6BBDCB
+      backColor: 377A86
+      sprite: missile-large
+      speed: 2
+      lifetime: 180
+      splashDamage: 280
+      splashDamageRadius: 35
+      width: 20
+      height: 26
+      trailChance: -1
+      trailInterval: 3
+      trailEffect: artilleryTrail
+      trailColor: 7FC4DA
+      shootEffect: shootSmall
+      trailLength: 0.5
+      trailWidth: 0.25
+      fragBullets: 10
+      fragRandomSpread: 120
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragBullet: {
+        type: BasicBulletType
+        frontColor: 6BBDCB
+        backColor: 377A86
+        width: 12
+        height: 16
+        sprite: shell
+        despawnSound: dull-explosion
+        speed: 2
+        lifetime: 60
+        pierce: true
+        pierceBuilding: true
+        damage: 120
+        splashDamage: 130
+        splashDamageRadius: 20
+      }
+    }
+  }
+]

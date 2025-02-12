@@ -1,0 +1,62 @@
+type: legs
+name: Ares
+description: Fires laser at enemies. Can walk on almost all terrain
+legCount: 4
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 9
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+groundLayer: 60
+health: 760
+armor: 3
+allowLegStep: true
+speed: 0.8
+hitSize: 8
+drag: 0.1
+itemCapacity: 20
+outlineColor: 26262F
+research: 10j-03-unitconstructor-mech
+researchCostMultiplier: 0.5
+weapons: [
+  {
+    x: 0
+    y: 0
+    reload: 60
+    mirror: false
+    name: ares-weapon
+    ejectEffect: none
+    continuous: true
+    alwaysContinuous: true
+    shootSound: firewall
+    shootStatus: slow
+    shootStatusDuration: 61
+    shootY: -3.5
+    bullet: {
+      type: ContinuousFlameBulletType
+      flareLength: 0
+      length: 70
+      width: 1.6
+      damage: 7.5
+      pierceCap: 2
+      hitEffect: none
+      despawnEffect: none
+      hitColor: E67676
+      colors: [
+               D45050,
+               E67676,
+               EEAAAA,
+               FFC7C7
+              ]
+      lightColor: D45050
+    }
+  }
+]

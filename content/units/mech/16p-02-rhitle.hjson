@@ -1,0 +1,48 @@
+type: legs
+name: Rhitle
+description: Fires missile. Can walk on almost all terrain.
+legCount: 4
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 15
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.2
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+groundLayer: 60
+health: 1360
+armor: 4
+allowLegStep: true
+speed: 1
+hitSize: 15
+drag: 0.1
+itemCapacity: 20
+outlineColor: 26262F
+research: 10j-06-unitreconstructor-mech
+researchCostMultiplier: 0.5
+weapons: [
+  {
+    x: 5
+    y: 0
+    reload: 35
+    mirror: true
+    alternate: true
+    shootStatus: slow
+    shootStatusDuration: 36
+    name: rhitle-weapon
+    ejectEffect: none
+    shootSound: missile-launch-a
+    shootY: 1
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      spawnUnit: rhitle-missile
+    }
+  }
+]

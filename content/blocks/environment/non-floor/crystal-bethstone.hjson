@@ -1,0 +1,8 @@
+type: TallBlock
+name: Crystal Bethstone
+variants: 2
+clipSize: 96
+shadowAlpha: 0.5
+shadowOffset: -1.5
+emitLight: true
+lightColor: 8BCEEA

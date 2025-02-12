@@ -1,0 +1,51 @@
+type: GenericCrafter
+name: Morphite Accelerator
+description: Speed up chromium strong enough to Morph itself and creating Morphite, requires large amount of cooling.
+size: 4
+category: crafting
+research: 09i-04-a-terra-basin
+consumes: {
+  items: [
+  01a-06-item-chromium/2
+  ]
+  liquids: [
+  02b-02-a-purified-elixir/1
+  ]
+  power: 6
+}
+outputItems: [
+  01a-09-item-morphite/1
+]
+researchCostMultiplier: 0.5
+requirements: [
+  01a-01-item-cobalt/225
+  01a-02-item-nickel/85
+  01a-05-item-aluminium/300
+  01a-06-item-chromium/250
+  01a-07-item-clevorite/140
+]
+squareSprite: false
+itemCapacity: 20
+craftTime: 30
+craftEffect: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 25
+    }
+    {
+      type: DrawArcSmelt
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
