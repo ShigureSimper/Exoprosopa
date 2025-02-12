@@ -1,0 +1,88 @@
+type: mech
+name: Calaust
+description: Fires electric lighting at enemies. Able to float over bodies of liquid.
+hovering: true
+hoverable: true
+faceTarget: false
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.075
+outlineColor: 26262F
+speed: 2.7
+rotateSpeed: 5
+accel: 0.11
+groundLayer: 60
+health: 1180
+armor: 3
+hitSize: 15
+researchCostMultiplier: 1.5
+research: 10j-05-unitreconstructor-ship
+engines: [
+  {
+    x: 0
+    y: -7
+    radius: 2.3
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+parts: [
+  {
+    type: HoverPart
+    x: 7
+    y: 6
+    mirror: true
+    radius: 7
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: D8F18C
+  }
+  {
+    type: HoverPart
+    x: 7
+    y: -5
+    mirror: true
+    radius: 7
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: D8F18C
+  }
+]
+abilities: [
+    {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 4
+    interval: 3
+    x: 0
+    y: -5
+}
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: calaust-weapon
+    reload: 8
+    rotate: true
+    mirror: false
+    shootSound: electric-discharge
+    bullet: {
+    type: LightningBulletType
+        lightningLength: 13
+        damage: 16
+        pierce: false
+        pierceBuilding: false
+        lightningColor: e9c574
+        }
+  }
+]
+trailColor: D8F18C
+trailLength: 12

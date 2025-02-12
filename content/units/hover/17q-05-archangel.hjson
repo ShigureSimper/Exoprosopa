@@ -1,0 +1,158 @@
+type: flying
+name: Archangel
+description: Charges up and fires electromagnetic piercing bullet that inflict discharge overload and continuous laser at enemies, Equipped with forcefield on surroundings.
+immunities: [electrified, burning, shocked, wet
+]
+flying: true
+faceTarget: true
+groundLayer: 40
+shadowElevation: 0.1
+drag: 0.07
+outlineColor: 26262F
+speed: 0.35
+rotateSpeed: 1.7
+accel: 0.1
+health: 36000
+armor: 38
+hitSize: 35
+researchCostMultiplier: 1.5
+research: 17q-04-noya
+engines: [{
+    x: 0
+    y: -21
+    radius: 8
+    rotation: -90
+    }
+    {
+        x: 8
+        y: -25
+        radius: 3.25
+        rotation: -90
+    }
+    {
+        x: -8
+        y: -25
+        radius: 3.25
+        rotation: -90
+    }
+    {
+        x: -19
+        y: -23
+        radius: 4.75
+        rotation: -135
+    }
+    {
+        x: 19
+        y: -23
+        radius: 4.75
+        rotation: -45
+    }]
+itemCapacity: 80
+lowAltitude: false
+abilities: [{
+    type: ForceFieldAbility
+    radius: 80
+    sides: 6
+    cooldown: 1500
+    regen: 1.7
+    max: 4000
+}]
+// abilities code from betterrusty
+weapons: [
+    {
+    x: 0
+    y: 4
+    reload: 410
+    rotate: false
+    mirror: false
+    shootSound: weapon-emp-discharge
+    chargeSound: weapon-emp-charging
+    shoot: {
+        firstShotDelay: 210
+    }
+    shake: 10
+    bullet: {
+        type: BasicBulletType
+        status: blasted
+        speed: 5
+        lifetime: 96.1
+        width: 10
+        height: 18
+        hitEffect: [scatheExplosion, spawnShockwave
+        ]
+        hitColor: D8F18C
+        despawnEffect: [scatheExplosion, spawnShockwave
+        ]
+        hitSound: shoot-mortar
+        pierce: true
+        damage: 1600
+        splashDamage: 920
+        splashDamageRadius: 65
+        despawnSound: shoot-mortar
+        trailChance: -1
+        trailEffect: shootSmokeTitan
+        trailInterval: 3
+        trailRotation: true
+        trailLength: 18
+        trailWidth: 4
+        trailColor: D8F18C
+        bulletInterval: 6
+        intervalRandomSpread: 0
+        intervalBullets: 2
+        intervalSpread: 90
+        intervalBullet: {
+           type: LaserBulletType
+          despawnSound: spark
+         colors: [D8F18C, ffffff
+          ]
+         sideWidth: 2
+         sideLength: 16
+         sideAngle: 45
+         length: 60
+         width: 4
+         damage: 125
+         status: electrified
+         statusDuration: 300
+         }
+    }
+    }
+    {
+        x: 18
+        y: 0
+        reload: 210
+        rotate: true
+        mirror: true
+        alternative: true
+        shootSound: none
+        loopSound: fire-wall
+        layerOffset: -20
+        shootSoundVolume: 0.2
+        shake: 3
+        targetSwitchInterval: 35
+        targetInterval: 20
+        cooldownTime: 190
+        continuous: true
+        rotationLimit: 16
+        name: archangel-weapon
+        bullet: {
+            type: ContinuousLaserBulletType
+            largeHit: false
+            drawSize: 170
+            maxRange: 240
+            length: 220
+            width: 3
+            lifetime: 100
+            damage: 35
+            incendChance: 0.03
+            incendSpread: 5
+            incendAmount: 1
+            smokeEffect: none
+            colors: [D8F18C, ffffff
+            ]
+            pierce: true
+            pierceBuilding: true
+            status: 13m-03-hsos6
+            statusDuration: 60
+        }
+    }
+]

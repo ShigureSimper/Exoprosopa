@@ -1,0 +1,77 @@
+type: flying
+name: Axthrasis
+description: Protects the Apeirogon Core, can build and retrieve resources. can heal blocks very fast.
+flying: true
+controller: BuilderAI
+faceTarget: true
+targetPriority: -2
+health: 600
+armor: 4
+speed: 7
+mineFloor: true
+mineWalls: true
+isEnemy: false
+hittable: false
+targetable: false
+mineSpeed: 9
+mineTier: 1
+buildSpeed: 1.5
+accel: 0.09
+drag: 0.08
+lowAltitude: false
+groundLayer: 40
+shadowElevation: 0.1
+rotateSpeed: 12
+itemCapacity: 100
+alwaysUnlocked: true
+outlineColor: 26262F
+waveTrailY: -3.0
+trailColor: D8F18C
+trailLength: 12
+fogRadius: 0
+engines: [
+   {
+    x: 0
+    y: -11
+    radius: 4.5
+    rotation: -90
+   }
+    {
+    x: 6.5
+    y: -10
+    radius: 2.5
+    rotation: -90
+   }
+    {
+    x: -6.5
+    y: -10
+    radius: 2.5
+    rotation: -90
+   }
+ ]
+ weapons: [
+  {
+  widthSinMag: 0.1
+    x: 0
+    y: 5
+    laserColor: D8F18C
+    mirror: false
+    type: RepairBeamWeapon
+    rotate: false
+    targetBuildings: true
+    targetUnits: false
+    autoTarget: false
+    controllable: true
+    reload: 20
+    shootY: 0
+    shootCone: 15
+    beamWidth: 0.8
+    repairSpeed: 4.5
+    fractionRepairSpeed: 0.06
+    bullet: {
+      type: BulletType
+      maxRange: 75
+      }
+    }
+]
+research: 11k-03-axthrasis
