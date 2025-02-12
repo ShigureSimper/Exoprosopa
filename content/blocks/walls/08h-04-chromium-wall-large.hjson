@@ -1,0 +1,12 @@
+type: Wall
+name: Large Chromium Wall
+description: Protects structures from enemy projectiles, lightly armored.
+size: 2
+health: 2200
+armor: 8
+requirements: [
+  01a-06-item-chromium/24
+]
+research: 08h-03-chromium-wall-small
+researchCostMultiplier: 0.5
+category: defense

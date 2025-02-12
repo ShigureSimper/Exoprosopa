@@ -1,0 +1,27 @@
+type: ForceProjector
+name: Holoshield
+description: Creates shield that blocks enemy projectile, requires power.
+size: 3
+health: 2800
+cooldownBrokenBase: 40
+cooldownConsumption: 60
+cooldownNormal: 120
+cooldownLiquid: 60
+sides: 4
+radius: 150
+shieldRotation: 45
+shieldHealth: 1800
+category: effect
+research: 08h-06-clevorite-wall-large
+requirements: [
+  01a-01-item-cobalt/300
+  01a-02-item-nickel/80
+  01a-05-item-aluminium/120
+  01a-06-item-chromium/200
+  01a-07-item-clevorite/120
+]
+consumes: {
+  power: 4
+}
+armor: 10
+researchCostMultiplier: 0.5

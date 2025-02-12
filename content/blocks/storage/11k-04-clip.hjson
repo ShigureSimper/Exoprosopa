@@ -1,0 +1,14 @@
+type: StorageBlock
+name: Clip
+description: Stores small amount of items.
+size: 2
+scaledHealth: 40
+itemCapacity: 150
+category: effect
+research: 05e-06-splitter
+requirements: [
+  01a-01-item-cobalt/30
+  01a-06-item-chromium/70
+]
+squareSprite: false
+researchCostMultiplier: 0.5

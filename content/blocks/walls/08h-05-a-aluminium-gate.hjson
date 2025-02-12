@@ -1,0 +1,13 @@
+type: AutoDoor
+name: Automatic Gate
+description: Protects structures from enemy projectiles, lightly armored. Function as a gate for ally units.
+size: 2
+armor: 6
+health: 2000
+requirements: [
+  01a-05-item-aluminium/24
+  01a-06-item-chromium/12
+]
+research: 08h-02-cobalt-wall-large
+researchCostMultiplier: 0.5
+category: defense

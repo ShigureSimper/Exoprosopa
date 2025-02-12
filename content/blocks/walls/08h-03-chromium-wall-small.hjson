@@ -1,0 +1,12 @@
+type: Wall
+name: Chromium Wall
+description: Protects structures from enemy projectiles, lightly armored.
+size: 1
+health: 550
+armor: 6
+requirements: [
+  01a-06-item-chromium/6
+]
+research: 08h-02-cobalt-wall-large
+researchCostMultiplier: 0.5
+category: defense

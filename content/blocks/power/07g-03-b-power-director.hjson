@@ -1,0 +1,11 @@
+type: PowerDiode
+name: Power Redirector
+description: Moves battery power in a single direction only if the other side has less power stored.
+requirements: [
+  01a-02-item-nickel/50
+  01a-05-item-aluminium/40
+  01a-06-item-chromium/20
+]
+category: power
+research: 07g-03-a-powerbank
+researchCostMultiplier: 0.5

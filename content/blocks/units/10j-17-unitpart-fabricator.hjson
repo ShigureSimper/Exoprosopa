@@ -1,0 +1,27 @@
+type: Constructor
+name: Advanced Unitpart Fabricator
+description: Crafts unit part for unit assembly, requires power and necroplasm.
+size: 4
+category: units
+requirements: [
+  01a-05-item-aluminium/200
+  01a-06-item-chromium/150
+  01a-07-item-clevorite/80
+  01a-08-item-petal/150
+  01a-10-item-bethine/35
+] 
+hasPower: true
+consumes: {
+  power: 3
+  liquid: 02b-03-necroplasm/0.25
+}
+buildSpeed: 0.5
+filter: [
+  90z-01-heavy-armored-treads, 
+  90z-02-hyperspace-engine, 
+  90z-03-geopowered-mechlegs
+]
+research: 10j-16-block-fabricator
+squareSprite: false
+maxBlockSize: 3
+researchCostMultiplier: 0.5

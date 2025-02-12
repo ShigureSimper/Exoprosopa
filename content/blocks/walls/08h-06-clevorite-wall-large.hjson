@@ -1,0 +1,14 @@
+type: Wall
+name: Large Clevorite Wall
+description: Protects structures from enemy projectiles, lightly armored. Able to deflect bullets on small amount and absorb lasers.
+size: 2
+health: 2720
+armor: 10
+chanceDeflect: 4
+absorbLasers: true
+requirements: [
+  01a-07-item-clevorite/24
+]
+research: 08h-05-clevorite-wall-small
+researchCostMultiplier: 0.5
+category: defense

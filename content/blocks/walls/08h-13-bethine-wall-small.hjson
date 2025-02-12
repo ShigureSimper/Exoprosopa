@@ -1,0 +1,22 @@
+type: ShieldWall
+name: Bethine Wall
+description: Protects structures from enemy projectiles, well armored. Able to deflect bullets and creating shield when powered.
+size: 1
+health: 900
+armor: 12
+outputsPower: false
+hasPower: true
+consumePower: true
+conductivePower: true
+chanceDeflect: 15
+shieldHealth: 200
+requirements: [
+  01a-06-item-chromium/6
+  01a-10-item-bethine/4
+]
+consumes: {
+  power: 0.05
+}
+research: 08h-08-morphite-wall-large
+researchCostMultiplier: 0.5
+category: defense

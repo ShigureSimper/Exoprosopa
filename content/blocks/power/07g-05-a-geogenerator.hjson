@@ -1,0 +1,42 @@
+type: ConsumeGenerator
+name: Geothermal Generator
+description: Using clevorite parts for drilling. Requires ichor for stability and anthracite to harvest heat below ground to generate power.
+health: 1200
+size: 3
+powerProduction: 12
+squareSprite: false
+researchCostMultiplier: 0.5
+consumes: {
+  items: [
+    01a-07-item-clevorite/1
+    01a-03-item-anthracite/3
+  ]
+  liquids: [
+    02b-02-ichor/0.25
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padding: 1.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+category: power
+research: 04d-01-pressure-generator
+requirements: [
+  01a-02-item-nickel/160
+  01a-05-item-aluminium/110
+  01a-06-item-chromium/100
+  01a-07-item-clevorite/75
+]

@@ -1,0 +1,20 @@
+type: PowerNode
+name: Large Powerline
+description: Transmits power to other blocks over a long distance, only caapble on making single connection.
+fogRadius: 2
+laserRange: 50
+health: 300
+maxNodes: 1
+size: 3
+squareSprite: false
+researchCostMultiplier: 0.5
+category: power
+research: 07g-01-powerline
+requirements: [
+  01a-07-item-clevorite/50
+  01a-01-item-cobalt/60
+  01a-06-item-chromium/20
+]
+laserScale: 1
+laserColor1: 6E7EB8
+laserColor2: ABB8E8

@@ -1,0 +1,38 @@
+type: LiquidTurret
+name: Smither
+description: Experimental Blocks.
+health: 1000
+size: 2
+rotateSpeed: 0
+reload: 180
+alwaysShooting: true
+range: 300
+squareSprite: false
+shootY: 0
+ammoTypes: {
+  02b-02-ichor: {
+  type: MissileBulletType
+  spawnUnit: smither-unit
+  shootEffect: none
+  }
+}
+loopSound: spellLoop
+loopSoundVolume: 0.5
+drawer: {
+  type: DrawTurret
+  parts: [
+
+]
+}
+consumes: {
+  power: 4
+}
+requirements: [
+  01a-01-item-cobalt/200
+  01a-02-item-nickel/80
+  01a-05-item-aluminium/100
+  01a-06-item-chromium/180
+]
+category: effect
+researchCostMultiplier: 0.5
+#thankyou shipenfire!
