@@ -1,0 +1,18 @@
+type: Duct
+name: Aluminium Pipe
+description: Moves items forward. Only capable of storing a single item, does not accept input on side.
+size: 1
+health: 250
+armored: true
+speed: 10
+requirements: [
+  01a-05-item-aluminium/1
+  01a-01-item-cobalt/2
+]
+research: 05e-01-transport-pipe
+researchCost: [
+  01a-01-item-cobalt/100
+  01a-05-item-aluminium/10
+]
+category: distribution
+bridgeReplacement: 05e-07-mechanical-bridge

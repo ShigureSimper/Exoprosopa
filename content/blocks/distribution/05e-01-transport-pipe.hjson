@@ -1,0 +1,15 @@
+type: Duct
+name: Transport Pipe
+description: Moves items forward. Only capable of storing a single item.
+size: 1
+health: 40
+speed: 10
+requirements: [
+  01a-01-item-cobalt/1
+]
+research: 11k-01-core-apex
+researchCost: [
+  01a-01-item-cobalt/4
+]
+category: distribution
+bridgeReplacement: 05e-07-mechanical-bridge

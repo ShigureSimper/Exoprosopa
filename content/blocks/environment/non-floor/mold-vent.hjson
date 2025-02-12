@@ -1,0 +1,9 @@
+name: Mold Vent
+type: SteamVent
+blendGroup: moldfloor
+parent: moldfloor
+effect: ventSteam
+effectColor: 4B7668
+attributes: {
+   steam: 1
+}

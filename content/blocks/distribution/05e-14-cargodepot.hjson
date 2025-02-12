@@ -1,0 +1,19 @@
+type: UnitCargoUnloadPoint
+name: Cargo Depot
+description: Accepts items dropped by an Iris cargo drone.
+itemCapacity: 100
+size: 2
+category: distribution
+research: 05e-13-cargobay
+requirements: [
+  01a-01-item-cobalt/70
+  01a-05-item-aluminium/50
+  01a-06-item-chromium/30
+  01a-09-item-morphite/10
+]
+researchCost: [
+  01a-01-item-cobalt/200
+  01a-05-item-aluminium/150
+  01a-06-item-chromium/100
+  01a-09-item-morphite/40
+]
