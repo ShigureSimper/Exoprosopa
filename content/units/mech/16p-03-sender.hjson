@@ -74,7 +74,7 @@ weapons: [
 	  2, -1.25f, 0, 
 	  6, -2.25f, 0]
 	  type: ShootBarrel
-	  shots: 5
+	  shots: 4
 	  shotDelay: 3f
 	  }
   }
