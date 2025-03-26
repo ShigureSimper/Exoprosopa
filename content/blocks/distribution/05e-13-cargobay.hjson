@@ -1,12 +1,13 @@
 type: UnitCargoLoader
 name: Cargobay
-description: Loads a cargo drone with items to be sent off towards a Cargo Depot.
+description: Loads a cargo drone with items to be sent off towards a cargo depot.
 size: 3
+health: 1000
 unitType: 18r-02-iris
 buildTime: 600
 consumes: {
   power: 6
-  liquid: 02b-02-ichor/1
+  liquid: 02b-02-a-purified-elixir/0.5
 }
 polyColor: c5a381
 polyRadius: 8

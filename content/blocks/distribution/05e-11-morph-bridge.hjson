@@ -1,6 +1,6 @@
 type: ItemBridge
 name: Morph Bridge
-description: Transfer item very fast over blocks and buildings, requires power.
+description: Transport items very fast over blocks and buildings, requires power.
 size: 1
 health: 300
 range: 8

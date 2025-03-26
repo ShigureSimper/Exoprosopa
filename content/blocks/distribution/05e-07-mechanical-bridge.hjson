@@ -1,6 +1,6 @@
 type: DuctBridge
 name: Bridge Pipe
-description: Transport items over terrain or buildings.
+description: Transports items over terrain or buildings.
 size: 1
 health: 65
 speed: 6

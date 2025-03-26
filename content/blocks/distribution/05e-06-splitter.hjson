@@ -1,8 +1,8 @@
 type: Router
 name: Splitter Pipe
-description: Distribute input items to 3 output direction equally.
+description: Distribute input items to 3 output directions equally.
 size: 1
-health: 40
+health: 65
 speed: 6
 itemCapacity: 1
 requirements: [

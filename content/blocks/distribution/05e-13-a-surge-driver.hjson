@@ -1,0 +1,21 @@
+type: MassDriver
+name: Surge Driver
+description: Transport items in batches to another Surge Driver in range.
+size: 3
+health: 650
+squareSprite: false
+itemCapacity: 80
+reload: 270
+range: 260
+consumes: {
+  power: 1.25
+}
+category: distribution
+research: 05e-15-pipeline-unloader
+requirements: [
+  01a-01-item-cobalt/70
+  01a-02-item-nickel/120
+  01a-05-item-aluminium/100
+  01a-06-item-chromium/75
+]
+outlineColor: 2C2A36
