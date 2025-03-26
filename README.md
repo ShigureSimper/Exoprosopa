@@ -17,4 +17,4 @@
   Also, Try Ark of Rebirth and Mindustry Expansion as well!<br>
   Special thanks for CY4NIDE, ItzMarzu, Zouranartemwing, Mythril, Aureus, Jamuu.<br><br>
   Sh1penFire My Beloved ♡<br><br><br>
-## Still in early access, expect some broken turrets and units.
+### Still in early access, expect some broken turrets and units.
