@@ -1,33 +1,27 @@
-// If you want to use any assets in this mod (except name), please credit me properly in your project.
+# If you want to use any assets in this mod (except name), please credit me properly in your project.
 name: "exoprosopa"
-displayName: "[[]#93E2EE]Exoprosopa[[]]"
+displayName: "[#93e2ee]Exoprosopa[]"
 author: "TnmSpiroct"
 description:
 '''
-  [[]#93E2EE]Exoprosopa[[]] adds third planet into the game alongside with its own techtree and environment.
+  [#93e2ee]Exoprosopa[] adds third planet into the game alongside with its own techtree and environment.
 
-  [[]#93E2EE]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.
+  [#93e2ee]Exoprosopa[] is waiting to be colonized again after nuclear retaliation across the supercontinent.
   Capture and conquer with over 3 campaign maps avaiable on this mod.
 
-  With over 11 item to be discovered, 98 blocks to be researched. and 16 different unit to build!
-  Harvest the planet with your technology before Astral infection recover and taken the entire planet.[[]]
+  With over 11 items to be discovered, 98 blocks to be researched. and 16 different units to build!
+  Harvest the planet with your technology before Astral Infection recovering their presence and taken the entire planet.
 
+  [accent]Thankyou for playing this mod! I always sprite nonstop and you can see my progress on #spriting in mindustry official server on discord.
 
-  [accent[]]Thankyou for playing this mod! I always sprite nonstop and you can see my progress on #spriting in mindustry official server on discord.
+  You can also see my profile to join Exoprosopa Server! my username is TnmSpiroct on discord.
 
-  You can also see my profile to join Exoprosopa server! my name is tnmspiroct on discord.
+  Also, Try Ark of Rebirth and Mindustry Expansion as well!
+  Special thanks for CY4NIDE, ItzMarzu, Zouranartemwing, Mythril, Aureus, Jamuu.
 
-  This mod will be added to github after 80% content and maps is finished.[[]]
-
-
-Also Try Ark of Rebirth and Mindustry Expansion!
-Special thanks for cyanide, itzmarzu, zouranartemwing, mythril, aureus, jamuu.
-
-[[]#ea9ad6]Sh1penFire my beloved ♡[[]]
+  [#ea9ad6]Sh1penFire My Beloved ♡
 '''
-version: "1"
+version: "2.0"
 minGameVersion: "146"
-subtitle:'''
-[[]#93E2EE]Astral Infection will come, will you?[[]]
-'''
+subtitle:[#93e2ee]Astral Infection will coming towards you!
 repo: "ShigureSimper/Exoprosopa"
