@@ -1,23 +1,53 @@
-onsen, normal-shot, firewall, electric-discharge, weapon-emp-charging, weapon-emp-discharge, pressure-generator, machinegun-shot, laser-charge, elixir
+# Credits [ Visual Experience / Assets ]
+
+cobalt sprite by miyotize
+morphite resprite by stabu
+cargo bay by twcash01
+xenoct resprite by elysia
+canace sprite by twcash01
+almost all code are modified asthosus code by catser
+marshlands & assault path map by absolutan
+luminary, sealed outpost & foggy fields map by mrapple
+cliffside map by itzcraft
+stellar map by nahan
+early deprive and calamity concept by cy4nide
+gameplay concept and turrets helped by sh1penfire
+halo exclusive for tanks by willoizcitron
+early code and sprite concept by marzu, artemwing, noone
+playtested by sambuyya and producer+
+english grammar fix by vire
+id translation by kevin vilyan
+
+special thanks: 
+jab005 for updating this mod to github, now he is gone, the account gets deleted. He doesn't want to comeback and leave indonesian community, thanks jab for taking care of indonesian mindustry server, i always love you. I hope you will comeback.
+
+Thank you for all exoprosopa contributors.
+
+# Credits [ Audio Experience / Assets ]
+
+SoundEffect: onsen, normal-shot, firewall, electric-discharge, weapon-emp-charging, weapon-emp-discharge, pressure-generator, machinegun-shot, laser-charge, elixir
 Source: https://bluearchive.wiki/wiki/Category:Sound_effects
 Author: Blue Archive
 
-Ep Yanagi Rest Awhile
+Music: Ep Yanagi Rest Awhile
 Source: https://youtu.be/TZvfPRf1-i4?si=uuc_Wi_X9KEtsEq1
 Author: Zenless Zone Zero
 
-laser-beam, mortar
+SoundEffect: laser-beam, mortar
 Source: 101soundboards.com
 
-radar-pulsing
+SoundEffect: radar-pulsing
 Source: 101soundboards.com
 Author: Factorio
 
-target, continuum-shot
+SoundEffect: target, continuum-shot
 Author: Terraria Calamity Mod
 
-World 15: Queenship Ost
+Music: World 15: Queenship Ost
 Source: https://youtu.be/CqW_T07PbSU?si=IJN6yLGShId7CX5z
 Author: Guardian Tales
 
-Other than that, the sound is free to use or unknown author.
+SoundEffect: plasma-shot
+Author: Carrion
+
+Other than said above, the sound is free to use or unknown author.
