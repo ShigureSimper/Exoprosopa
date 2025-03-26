@@ -1,11 +1,12 @@
 type: BurstDrill
 name: Bore Jet
-description: Using jet to mine materials from ground, requires elixir.
+description: Uses a high-pressure jet of elixir to mine ground ores.
 size: 4
+health: 650
 hardnessDrillMultiplier: 200
 category: production
 research: {
-  parent: 04d-01-pressure-generator
+  parent: 0004-drill
   objectives: [
     {
       type: OnSector

@@ -1,8 +1,8 @@
 type: GenericCrafter
 name: Neutralizer
-description: Neutralize ichor into elixir and purified elixir.
+description: Converts ichor into elixir and cryogenics. Outputs resulting liquids on opposing sides, as marked by the colors. (WIP)
 size: 3
-health: 700
+health: 850
 placeableLiquid: true
 liquidOutputDirections: [1,3]
 regionRotated1: 3

@@ -1,6 +1,7 @@
 type: WallCrafter
 name: Tantrium Crusher
-description: Mines Tantra Dust from tantrium blocks.
+description: Mines tantra dust from tantrium blocks.
+health: 250
 size: 2
 category: production
 research: {
@@ -12,7 +13,6 @@ research: {
     }
   ]
 }
-
 consumes: {
   power: 0.166666666666
 }
@@ -29,4 +29,3 @@ output: 01a-04-item-tantra-sand
 attribute: tantra
 ambientSound: drill
 ambientSoundVolume: 0.08
-squareSprite: false
