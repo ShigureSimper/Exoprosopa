@@ -1,0 +1,44 @@
+type: RegenProjector
+name: Pyroxene Wall
+description: Protects structures from enemy projectiles, heavily armored. Able to absorb lasers. Regenerates over time when powered. Deals damage to enemies when destroyed.
+size: 1
+health: 1400
+armor: 20
+effectChance: 0.05
+range: 0.01
+healPercent: 0.0075
+outputsPower: false
+hasPower: true
+consumePower: true
+conductivePower: true
+absorbLasers: true
+requirements: [
+  01a-07-item-clevorite/3
+  01a-09-item-morphite/1
+  01a-11-item-pyroxene/4
+]
+consumes: {
+  power: 0.1
+}
+research: 08h-08-morphite-wall-large
+researchCostMultiplier: 0.5
+category: defense
+destroyBullet: {
+  instantDisappear: true
+  damage: 0
+  speed: 0
+  fragBullets: 5
+  fragBullet: {
+    type: BasicBulletType
+    speed: 4
+    lifetime: 30
+    pierce: true
+    width: 6
+    height: 7
+    pierceCap: 1
+    homingPower: 0.1
+    damage: 20
+    mixColorFrom: 594e6b
+    mixColorTo: 2e293a
+  }
+}

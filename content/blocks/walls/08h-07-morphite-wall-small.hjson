@@ -1,0 +1,16 @@
+type: Wall
+name: Morphite Wall
+description: Protects structures from enemy projectiles, lightly armored. Creates lighting sparks when damaged.
+size: 1
+health: 850
+armor: 8
+lightningChance: 0.1
+lightningDamage: 15
+lightningColor: cf9991
+requirements: [
+  01a-09-item-morphite/6
+  01a-01-item-cobalt/3
+]
+research: 08h-06-clevorite-wall-large
+researchCostMultiplier: 0.5
+category: defense

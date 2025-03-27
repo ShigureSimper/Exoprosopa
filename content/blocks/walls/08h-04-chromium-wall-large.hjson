@@ -1,12 +1,12 @@
 type: Wall
-name: Cobalt Wall
+name: Large Chromium Wall
 description: Protects structures from enemy projectiles, lightly armored.
-size: 1
-armor: 4
-health: 480
+size: 2
+health: 2200
+armor: 8
 requirements: [
-  01a-01-item-cobalt/6
+  01a-06-item-chromium/24
 ]
-research: 0008-defence
+research: 08h-03-chromium-wall-small
 researchCostMultiplier: 0.5
 category: defense
