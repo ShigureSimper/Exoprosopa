@@ -1,0 +1,28 @@
+type: Battery
+name: Small Powerbank
+description: A battery capable of storing large amounts of power.
+size: 2
+health: 250
+squareSprite: false
+consumes: {
+  powerBuffered: 10000
+}
+requirements: [
+  01a-02-item-nickel/60
+  01a-05-item-aluminium/40
+]
+category: power
+research: {
+  parent: 07g-01-powerline
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-02-mountain-ridge
+    }
+  ]
+}
+researchCost: [
+  01a-02-item-nickel/200
+  01a-05-item-aluminium/150
+]
+fogRadius: 1

@@ -1,0 +1,18 @@
+type: Battery
+name: Powerbank
+description: A battery capable of storing massive amounts of power.
+size: 3
+health: 450
+squareSprite: false
+consumes: {
+  powerBuffered: 75000
+}
+requirements: [
+  01a-02-item-nickel/100
+  01a-05-item-aluminium/75
+  01a-06-item-chromium/50
+]
+category: power
+research: 07g-02-m-small-powerbank
+researchCostMultiplier: 0.5
+fogRadius: 1
