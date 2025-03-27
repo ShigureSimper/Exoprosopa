@@ -1,0 +1,61 @@
+type: AttributeCrafter
+name: Ichor Rig
+description: Slowly extracts ichor from wasteland ichor tiles, requires large amounts elixir to operate.
+size: 4
+attribute: ichor
+baseEfficiency: 0
+minEfficiency: 1
+boostScale: 0.04
+liquidCapacity: 120
+hasLiquids: true
+health: 1000
+category: production
+research: 04d-02-elixir-collector
+itemCapacity: 20
+researchCost: [
+  01a-01-item-cobalt/2300
+  01a-05-item-aluminium/1100
+  01a-06-item-chromium/1900
+  01a-07-item-clevorite/250
+]
+requirements: [
+  01a-01-item-cobalt/300
+  01a-05-item-aluminium/80
+  01a-06-item-chromium/140
+  01a-07-item-clevorite/80
+]
+craftTime: 150
+craftEffect: none
+outputLiquids: [
+  02b-02-ichor/0.5
+]
+consumes: {
+  liquids: [
+    02b-01-bioliquid/3.3333333333333
+  ]
+  power: 3
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+ambientSound: onsen
+ambientSoundVolume: 0.6
+squareSprite: false

@@ -1,0 +1,32 @@
+type: beamDrill
+name: Ore Blaster
+description: A better ore extractor, requires cryogenics to function.
+health: 1000
+range: 7
+tier: 3
+size: 4
+optionalBoostIntensity: 1.5
+drillTime: 80
+ambientSound: drill
+ambientSoundVolume: 0.08
+hasLiquids: true
+consumes: {
+  liquid: 02b-02-a-purified-elixir/0.0833333333
+  power: 1
+  liquids: {
+    liquids: [
+      02b-02-ichor/0.25
+    ]
+    optional: true
+    booster: true
+  }
+}
+category: production
+research: 04d-03-ore-extractor
+researchCostMultiplier: 0.5
+requirements: [
+  01a-01-item-cobalt/150
+  01a-05-item-aluminium/100
+  01a-06-item-chromium/80
+  01a-07-item-clevorite/30
+]
