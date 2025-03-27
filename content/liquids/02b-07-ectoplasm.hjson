@@ -1,6 +1,4 @@
 boilPoint: 0.85
-name: Ectoplasm
-description: A deadly liquid created from miasma, highly explosive and spread into elixir.
 heatCapacity: 0.8
 gasColor: d9e1e6E6
 research: 02b-03-necroplasm
