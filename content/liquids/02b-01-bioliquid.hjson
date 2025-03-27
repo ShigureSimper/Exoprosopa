@@ -1,6 +1,4 @@
 boilPoint: 0.5
-name: Elixir
-description: Contaminated water mixed with biomadd, can be filtered for coolant and factory.
 color: D488EA
 heatCapacity: 0.3
 research: 0002-liquid
