@@ -30,3 +30,69 @@ sector.exoprosopa-19s-06-crest.description =
 item.exoprosopa-01a-01-item-cobalt.name = 
 item.exoprosopa-01a-01-item-cobalt.description = 
 
+item.exoprosopa-01a-02-item-nickel.name = 
+item.exoprosopa-01a-02-item-nickel.description = 
+
+item.exoprosopa-01a-03-item-anthracite.name = 
+item.exoprosopa-01a-03-item-anthracite.description = 
+
+item.exoprosopa-01a-03-item-aquashard.name = 
+item.exoprosopa-01a-03-item-aquashard.description = 
+
+item.exoprosopa-01a-04-item-tantra-sand.name = 
+item.exoprosopa-01a-04-item-tantra-sand.description = 
+
+item.exoprosopa-01a-05-item-aluminium.name = 
+item.exoprosopa-01a-05-item-aluminium.description = 
+
+item.exoprosopa-01a-05-item-raw-nichrome.name = 
+item.exoprosopa-01a-05-item-raw-nichrome.description = 
+
+item.exoprosopa-01a-06-item-chromium.name = 
+item.exoprosopa-01a-06-item-chromium.description = 
+
+item.exoprosopa-01a-07-item-clevorite.name = 
+item.exoprosopa-01a-07-item-clevorite.description = 
+
+item.exoprosopa-01a-08-item-petal.name = 
+item.exoprosopa-01a-08-item-petal.description = 
+
+item.exoprosopa-01a-09-item-morphite.name = 
+item.exoprosopa-01a-09-item-morphite.description = 
+
+item.exoprosopa-01a-10-item-bethine.name = 
+item.exoprosopa-01a-10-item-bethine.description = 
+
+item.exoprosopa-01a-11-item-pyroxene.name = 
+item.exoprosopa-01a-11-item-pyroxene.description = 
+
+item.exoprosopa-01a-21-smooth-cobalt.name = 
+item.exoprosopa-01a-21-smooth-cobalt.description = 
+
+# Resources - Liquids
+liquid.exoprosopa-02b-01-bioliquid.name = 
+liquid.exoprosopa-02b-01-bioliquid.description = 
+
+liquid.exoprosopa-02b-02-a-purified-elixir.name = 
+liquid.exoprosopa-02b-02-a-purified-elixir.description = 
+
+liquid.exoprosopa-02b-02-ichor.name = 
+liquid.exoprosopa-02b-02-ichor.description = 
+
+liquid.exoprosopa-02b-03-necroplasm.name = 
+liquid.exoprosopa-02b-03-necroplasm.description = 
+
+liquid.exoprosopa-02b-04-miasma.name = 
+liquid.exoprosopa-02b-04-miasma.description = 
+
+liquid.exoprosopa-02b-05-hydrowater.name = 
+liquid.exoprosopa-02b-05-hydrowater.description = 
+
+liquid.exoprosopa-02b-06-morphitix-plasma.name = 
+liquid.exoprosopa-02b-06-morphitix-plasma.description = 
+
+liquid.exoprosopa-02b-07-ectoplasm.name = 
+liquid.exoprosopa-02b-07-ectoplasm.description = 
+
+liquid.exoprosopa-02b-08-bethinix-liquid.name = 
+liquid.exoprosopa-02b-08-bethinix-liquid.description = 
