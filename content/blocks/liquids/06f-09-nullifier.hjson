@@ -1,0 +1,66 @@
+type: GenericCrafter
+name: Nullifier
+description: Use cryogenics and miasma to transform nickel into clevorite, have better effeciency but doesn't produce elixir.
+size: 3
+liquidCapacity: 240
+hasLiquids: true
+health: 1000
+category: liquid
+research: 06f-08-mfu
+researchCostMultiplier: 0.5
+requirements: [
+  01a-02-item-nickel/120
+  01a-06-item-chromium/80
+  01a-08-item-petal/120
+]
+craftTime: 240
+craftEffect: none
+outputLiquids: [
+  02b-04-miasma/2
+]
+consumes: {
+  liquids: [
+    02b-02-ichor/0.25
+    02b-07-ectoplasm/0.333333333
+  ]
+  power: 2.5
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padding: 2
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-07-ectoplasm
+      padding: 7.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      padding: 7.5
+    }
+    {
+      type: DrawBubbles
+      color: FFFFFF
+      sides: 4
+      recurrence: 3
+      spread: 7
+      radius: 1.75
+      amount: 28
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false
