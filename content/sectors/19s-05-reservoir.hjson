@@ -1,0 +1,12 @@
+difficulty: 4
+planet: nova
+sector: 32
+research: {
+  parent: 19s-03-hostile-outpost
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-03-hostile-outpost
+    }
+  ]
+}

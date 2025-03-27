@@ -1,0 +1,13 @@
+captureWave: 12
+difficulty: 2
+planet: nova
+sector: 34
+research: {
+  parent: 19s-02-mountain-ridge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-02-mountain-ridge
+    }
+  ]
+}

@@ -1,1 +1,5 @@
-
+planet: nova
+sector: 0
+research: 0014-sector
+difficulty: 1
+alwaysUnlocked: true

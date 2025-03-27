@@ -1,0 +1,12 @@
+difficulty: 2
+planet: nova
+sector: 14
+research: {
+  parent: 19s-05-reservoir
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-05-reservoir
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+difficulty: 3
+planet: nova
+sector: 15
+research: {
+  parent: 19s-03-a-luminary
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-03-a-luminary
+    }
+  ]
+}
