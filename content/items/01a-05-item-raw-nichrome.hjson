@@ -1,0 +1,10 @@
+name: Raw Nichrome
+description: Contains fused nickel and chromium known as nichrome. Can be separated using elemental separator.
+color: A88B65
+hardness: 1
+lowPriority: true
+cost: 0.3
+research: 01a-01-item-cobalt
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+buildable: false

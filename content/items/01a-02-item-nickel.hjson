@@ -1,0 +1,7 @@
+name: Nickel
+description: Used in basic electronic and other mechanical material.
+color: C2B758
+hardness: 1
+cost: 0.6
+research: 01a-01-item-cobalt
+hiddenOnPlanets: [serpulo, erekir]

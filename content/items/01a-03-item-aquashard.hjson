@@ -1,0 +1,10 @@
+name: Aquanite
+description: Rich in iron, can be filtered using aqua filter.
+color: 72CCBD
+hardness: 1
+lowPriority: true
+cost: 0.3
+research: 01a-01-item-cobalt
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+buildable: false

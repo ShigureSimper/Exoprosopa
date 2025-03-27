@@ -1,0 +1,6 @@
+name: Cobalt Biomass
+description: Raw cobalt in biomass state, Astral exclusive item.
+color: 7A94D1
+hardness: 1
+cost: 0.5
+hiddenOnPlanets: [serpulo, erekir]
