@@ -1,0 +1,8 @@
+boilPoint: 0.3
+name: Bethinix Liquid
+description: Used for making bethinix, very explosive.
+color: 6D5722
+explosiveness: 2
+heatCapacity: 0.05
+temperature: 0.05
+research: 02b-01-bioliquid

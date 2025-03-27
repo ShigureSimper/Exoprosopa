@@ -1,0 +1,9 @@
+boilPoint: 0.5
+name: Morphitix Plasma
+description: Plasma created by heating and discharge morphite.
+color: 51C59C
+heatCapacity: 0.3
+gasColor: d9e1e6E6
+research: 02b-02-ichor
+explosiveness: 5
+alwaysUnlocked: true

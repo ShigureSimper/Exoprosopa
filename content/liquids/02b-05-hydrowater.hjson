@@ -1,0 +1,6 @@
+boilPoint: 0.5
+name: Hydriyte
+description: Used in cleaning aquanite, elixir counterpart.
+color: 53A999
+heatCapacity: 0.15
+research: 02b-01-bioliquid
