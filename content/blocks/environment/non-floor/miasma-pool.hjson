@@ -1,0 +1,15 @@
+type: Floor
+name: Miasma
+speedMultiplier: 0.35
+variants: 0
+isLiquid: true
+liquidDrop: 02b-04-miasma
+cacheLayer: water
+supportsOverlay: true
+liquidMultiplier: 0.8333333333
+drownTime: 180
+emitLight: true
+lightRadius: 30
+lightColor: EBB2E2AA
+status: exoprosopa-13m-06-contaminated
+statusDuration: 180

@@ -1,0 +1,10 @@
+type: Floor
+name: Aqua Water
+speedMultiplier: 0.5
+variants: 4
+liquidDrop: 02b-05-hydrowater
+liquidMultiplier: 1.666666666
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true

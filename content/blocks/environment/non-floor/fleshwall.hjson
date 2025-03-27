@@ -1,0 +1,4 @@
+type: StaticWall
+name: Fleshing Wall
+description: "The creatures are hiding in there."
+variants: 4
