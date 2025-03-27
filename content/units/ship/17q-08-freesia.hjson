@@ -1,0 +1,116 @@
+type: naval
+name: Freesia
+description: Fires multiple exploding bullet at enemies, can also heal ally units. Astral exclusive unit.
+details: Freesia, Guardian of the Post Haste post office. Surviving in nuclear retalliation alone. Freesia lost its master a long ago, Freesia has no communication against astral, Freesia only guarding Post Haste Facility.
+hideDetails: false
+abilities: [
+{
+    type: ForceFieldAbility
+    radius: 80
+    sides: 6
+    cooldown: 1500
+    regen: 1.5
+    max: 3000
+    }
+]
+speed: 0.5
+health: 15000
+armor: 12
+aimDst: 10
+range: 90
+drag: 0.1
+accel: 0.8
+hitSize: 25
+rotateSpeed: 1.7
+trailLength: 15
+outlineColor: 0C0E29
+weapons: [
+{
+    mirror: true
+    rotate: true
+    name: freesia-autocannon
+    shoot: {
+      shots: 3
+      shotDelay: 8
+    }
+    rotateSpeed: 1.75
+    x: 6.75
+    y: 7
+    reload: 50
+    recoil: 1.25
+    shootSound: normal-shot
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      width: 5
+      splashDamageRadius: 20
+      splashDamage: 35
+      pierceCap: 1
+      lifetime: 45
+      damage: 95
+      speed: 4.5
+      smokeEffect: colorSpark
+      trailColor: E3EBFB
+      trailWidth: 1.5
+      trailLength: 5
+      backColor: E3EBFB
+      hitColor: E3EBFB
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 8
+        sizeFrom: 0
+        sizeTo: 15
+        colorFrom: ffffff
+        colorTo: feb380
+        }
+      }
+}
+{
+    mirror: true
+    rotate: true
+    name: narhwal-salvo
+    shoot: {
+      shots: 3
+      shotDelay: 8
+    }
+    rotateSpeed: 1.75
+    x: 8
+    y: -10.5
+    reload: 70
+    recoil: 1.25
+    shootSound: plasma-shot
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      width: 5
+      splashDamageRadius: 20
+      splashDamage: 50
+      pierceCap: 1
+      lifetime: 30
+      damage: 150
+      speed: 7
+      smokeEffect: colorSpark
+      trailColor: E3EBFB
+      trailWidth: 1.5
+      trailLength: 5
+      backColor: E3EBFB
+      hitColor: E3EBFB
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 8
+        sizeFrom: 0
+        sizeTo: 15
+        colorFrom: ffffff
+        colorTo: feb380
+        }
+      }
+}
+]
+immunities: [
+  13m-01-breached
+]
+# research: 11k-01-core-astral
