@@ -1,0 +1,13 @@
+type: MessageBlock
+name: Message Chip Data
+description: Stores a message for communication between allies.
+size: 1
+health: 65
+requirements: [
+  01a-02-item-nickel/10
+]
+category: logic
+research: 11k-06-illuminator
+researchCost: [
+  01a-02-item-nickel/50
+]
