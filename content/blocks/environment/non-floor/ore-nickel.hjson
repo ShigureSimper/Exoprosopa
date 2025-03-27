@@ -1,4 +1,0 @@
-type: OreBlock
-name: Nickel Ore
-itemDrop: 01a-02-item-nickel
-wallOre: true

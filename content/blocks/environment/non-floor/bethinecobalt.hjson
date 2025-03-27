@@ -1,7 +1,0 @@
-type: StaticWall
-name: Cobalt Wall
-description: "Contains traces of cobalt."
-attributes: {
-  cobalt: 1
-}
-itemDrop: 01a-01-item-cobalt

@@ -1,9 +1,0 @@
-name: Clevorite
-description: Super conductive material that are used in many advanced generator.
-color: AFE986
-hardness: 3
-cost: 1.0
-charge: 0.4
-explosiveness: 0.4
-research: 01a-05-item-aluminium
-hiddenOnPlanets: [serpulo, erekir]

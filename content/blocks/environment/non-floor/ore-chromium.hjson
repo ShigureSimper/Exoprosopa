@@ -1,4 +1,0 @@
-type: OreBlock
-name: Chromium Ore
-itemDrop: 01a-06-item-chromium
-wallOre: true

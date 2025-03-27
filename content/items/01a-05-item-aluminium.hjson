@@ -1,7 +1,0 @@
-name: Aluminium
-description: Mainly used on unit and electronic parts.
-hardness: 3
-cost: 0.8
-research: 01a-03-item-anthracite
-color: 729AAF
-hiddenOnPlanets: [serpulo, erekir]
