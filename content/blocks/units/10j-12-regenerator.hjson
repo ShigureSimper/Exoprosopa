@@ -1,0 +1,21 @@
+type: RepairTower
+name: Regenerator
+description: Constantly repairs all units in its range. Requires power.
+size: 2
+health: 450
+squareSprite: false
+category: units
+requirements: [
+  01a-01-item-cobalt/80
+  01a-02-item-nickel/80
+  01a-05-item-aluminium/60
+  01a-06-item-chromium/60
+]
+research: 10j-01-unitconstructor-tank
+range: 100
+healAmount: 1.5
+consumes: {
+  power: 2
+  liquid: 02b-01-bioliquid/0.5
+}
+researchCostMultiplier: 0.5
