@@ -1,0 +1,23 @@
+type: LiquidRouter
+name: Aqua Container
+description: Stores a sizeable amount of fluids.
+health: 450
+size: 2
+hasLiquids: true
+liquidCapacity: 600
+category: liquid
+requirements: [
+  01a-01-item-cobalt/40
+  01a-05-item-aluminium/15
+]
+research: {
+  parent: 06f-03-seaduct-router
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-02-mountain-ridge
+    }
+  ]
+}
+liquidPadding: 1.8
+researchCostMultiplier: 0.5
