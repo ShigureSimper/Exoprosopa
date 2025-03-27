@@ -1,0 +1,70 @@
+type: flying
+name: Syntaxe
+description: Fires high piercing velocity bullets at enemies.
+flying: true
+faceTarget: true
+groundLayer: 40
+shadowElevation: 0.1
+drag: 0.07
+outlineColor: 26262F
+speed: 1.55
+rotateSpeed: 2.1
+accel: 0.1
+health: 2050
+armor: 6
+hitSize: 25
+researchCostMultiplier: 1.5
+research: 10j-07-unitupgrader
+engines: [
+  {
+    x: 0
+    y: -15
+    radius: 4
+    rotation: -90
+  }
+  {
+    x: 8
+    y: -12
+    radius: 2.5
+    rotation: -90
+  }
+  {
+    x: -8
+    y: -12
+    radius: 2.5
+    rotation: -90
+  }
+]
+itemCapacity: 60
+lowAltitude: false
+weapons: [
+  {
+    x: 0
+    y: 1
+    reload: 120
+    rotate: false
+    mirror: false
+    shoot: {
+      shots: 3
+      shotDelay: 8
+    }
+    shootSound: normal-shot
+    recoil: 2
+    bullet: {
+    type: BasicBulletType
+        damage: 70.25
+        speed: 8
+        lifetime: 25
+        pierce: false
+        pierceCap: 2
+        pierceBuilding: false
+        trailColor: D8F18C
+        trailChance: -1
+        trailEffect: fluxVapor
+        trailInterval: 2
+        trailRotation: true
+        trailLength: 8
+        trailWidth: 3
+        }
+  }
+]
