@@ -1,0 +1,89 @@
+type: LiquidTurret
+name: Spewer
+description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
+health: 1800
+armor: 3
+size: 3
+reload: 1.5
+inaccuracy: 6
+hasLiquids: true
+liquidCapacity: 60
+outlineColor: 2C2A36
+recoil: 0.5
+category: turret
+research: 03c-01-impale
+researchCostMultiplier: 0.5
+range: 175
+requirements: [
+  01a-02-item-nickel/350
+  01a-05-item-aluminium/120
+  01a-06-item-chromium/90
+]
+ammoTypes: {
+  02b-02-a-purified-elixir: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: 02b-02-a-purified-elixir
+    speed: 2.5
+    lifetime: 70
+    knockback: 0.7
+    status: wet
+    statusDuration: 120
+    damage: 5
+    layer: 98
+    fragBullets: 1
+    fragBullet: {
+      type: LiquidBulletType
+      liquid: 02b-02-a-purified-elixir
+      status: wet
+      statusDuration: 120
+      damage: 3
+      puddleSize: 15
+      despawnHit: true
+      despawnSound: splash
+      speed: 0
+      lifetime: 0
+      splashDamage: 3
+      splashDamageRadius: 2
+      hitEffect: none
+      collidesAir: false
+      }
+  }
+  02b-04-miasma: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: 02b-04-miasma
+    speed: 3
+    lifetime: 75
+    knockback: 1.4
+    status: 13m-06-contaminated
+    statusDuration: 90
+    damage: 6
+    layer: 98
+    rangeChange: 45
+    fragBullets: 1
+    fragBullet: {
+      type: LiquidBulletType
+      liquid: 02b-04-miasma
+      status: 13m-06-contaminated
+      statusDuration: 90
+      damage: 15
+      puddleSize: 15
+      despawnHit: true
+      despawnSound: splash
+      speed: 0
+      lifetime: 0
+      splashDamage: 6
+      splashDamageRadius: 2
+      hitEffect: none
+      collidesAir: false
+      }
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spewer-
+}
+squareSprite: false

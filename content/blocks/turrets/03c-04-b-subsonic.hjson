@@ -1,0 +1,62 @@
+type: PowerTurret
+name: Subsonic
+description: Charges up to and discharge pure power to electrifies enemies.
+size: 3
+health: 3000
+armor: 5
+reload: 115
+shoot: {
+  firstShotDelay: 115
+  shots: 12
+  shotDelay: 0
+}
+rotateSpeed: 1.35
+recoil: 2.5
+range: 290
+minWarmup: 0.4
+moveWhileCharging: false
+outlineColor: 00000000
+shootSound: taser
+chargeSound: laser-charge
+researchCostMultiplier: 0.5
+shootType: {
+  type: LightningBulletType
+  hitSound: electric-discharge
+  damage: 110
+  lightningLength: 35
+  lightningLengthRand: 7
+  lightningColor: 51C59C
+  status: 13m-03-hsos6
+  statusDuration: 120
+  chargeEffect: lightningCharge
+  buildingDamageMultiplier: 0.25
+}
+category: turret
+squareSprite: false
+research: 03c-03-vulcan
+requirements: [
+  01a-01-item-cobalt/200
+  01a-02-item-nickel/400
+  01a-06-item-chromium/150
+  01a-07-item-clevorite/80
+  01a-09-item-morphite/60
+]
+consumes: {
+  power: 12
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: subsonic-
+  parts: [
+      {
+      type: RegionPart
+      suffix: -body
+      progress: recoil
+      heatProgress: recoil
+      mirror: false
+      under: false
+      outline: false
+      heatColor: 8DF9D1
+    }
+  ]
+}

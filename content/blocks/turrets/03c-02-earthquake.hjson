@@ -1,0 +1,108 @@
+type: ItemTurret
+name: Earthquake
+description: Slams ground to slowdown enemies.
+size: 3
+squareSprite: false
+health: 1800
+armor: 5
+shootSound: exoripple
+requirements: [
+  01a-02-item-nickel/300
+  01a-05-item-aluminium/120
+  01a-06-item-chromium/50
+]
+category: turret
+coolant: {
+  type: ConsumeLiquid
+  liquid: 02b-02-a-purified-elixir
+  amount: 0.25
+}
+coolantMultiplier: 2.4
+recoil: 0
+outlineColor: 2C2A36
+targetAir: false
+targetGround: true
+rotateSpeed: 0
+reload: 90
+range: 150
+shootCone: 360
+shootY: -4
+shake: 7
+ammoTypes: {
+  01a-06-item-chromium: {
+    instantDisappear: true
+    splashDamage: 25
+    splashDamageRadius: 150
+    status: 13m-07-shock
+    statusDuration: 300
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: {
+      type: WaveEffect
+      sizeFrom: 0
+      sizeTo: 150
+      strokeFrom: 3
+      strokeTo: 0
+      colors: [BCA49F
+      ]
+     }
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: earthquake-
+  parts: [
+      {
+      type: RegionPart
+      suffix: -body
+      progress: recoil
+      under: false
+      }
+      {
+      type: RegionPart
+      suffix: -a
+      x: 7
+      y: 7
+      rotation: -45
+      progress: warmup
+      moveY: -0.75
+      moveX: -0.75
+      under: true
+      }
+      {
+      type: RegionPart
+      suffix: -a
+      x: -7
+      y: -7
+      progress: warmup
+      rotation: 135
+      moveY: 0.75
+      moveX: 0.75
+      under: true
+      }
+      {
+      type: RegionPart
+      suffix: -a
+      rotation: -135
+      x: -7
+      y: 7
+      progress: warmup
+      moveY: -0.75
+      moveX: 0.75
+      under: true
+      }
+      {
+      type: RegionPart
+      suffix: -a
+      rotation: 45
+      x: 7
+      y: -7
+      progress: warmup
+      moveY: 0.75
+      moveX: -0.75
+      under: true
+    }
+  ]
+}
+research: 03c-02-calamity
+researchCostMultiplier: 0.5

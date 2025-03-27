@@ -1,0 +1,68 @@
+type: ContinuousTurret
+name: Continuum
+description: Fires a slow-moving single-target laser at enemy targets.
+size: 4
+health: 4000
+armor: 10
+shootWarmupSpeed: 0.1
+shootCone: 360
+loopSound: firewall
+consumes: {
+  liquid: 02b-06-morphitix-plasma/0.33333333333
+  power: 9
+}
+requirements: [
+  01a-02-item-nickel/900
+  01a-05-item-aluminium/600
+  01a-06-item-chromium/450
+  01a-07-item-clevorite/200
+  01a-10-item-bethine/50
+]
+category: turret
+outlineColor: 2C2A36
+targetAir: true
+targetGround: true
+rotateSpeed: 0.9
+aimChangeSpeed: 0.9
+reload: 60
+range: 350
+shootY: -0.5
+shootType: {
+  type: PointLaserBulletType
+  buildingDamageMultiplier: 0.5
+  damage: 225
+  hitColor: FF91B3
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: continuum-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -hand
+    mirror: true
+    progress: warmup
+    moveY: -2.5
+    moveX: 1.5
+    moveRot: -25
+    under: false
+    }
+    {
+    type: RegionPart
+    suffix: -main
+    mirror: false
+    progress: warmup
+    heatProgress: warmup
+    moveY: -1.5
+    under: true
+    }
+  ]
+}
+research: 03c-03-vulcan
+researchCost: [
+  01a-02-item-nickel/15000
+  01a-05-item-aluminium/11000
+  01a-06-item-chromium/8000
+  01a-07-item-clevorite/4000
+  01a-10-item-bethine/300
+]
