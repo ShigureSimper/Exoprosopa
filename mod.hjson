@@ -14,9 +14,9 @@ description:
 
   [accent[]]Thankyou for playing this mod! 
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
-  Check it on my profile. My username is TnmSpiroct.[[]]
+  Check it on my profile. My username is TnmSpiroct.
 '''
 version: "2.0"
 minGameVersion: "146"
-subtitle: "[#93e2ee[]]Always reinstall the mod for new updates![[]]"
+subtitle: "[#93e2ee[]]Always reinstall the mod for new updates!"
 repo: "ShigureSimper/Exoprosopa"
