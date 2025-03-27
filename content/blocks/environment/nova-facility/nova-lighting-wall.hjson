@@ -1,0 +1,9 @@
+type: Prop
+name: Nova Lighting Wall
+variants: 0
+solid: true
+breakable: false
+alwaysReplace: false
+emitLight: true
+lightColor: 9ccaed8e
+lightRadius: 32

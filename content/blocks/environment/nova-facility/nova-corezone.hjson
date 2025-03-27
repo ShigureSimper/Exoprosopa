@@ -1,0 +1,4 @@
+type: Floor
+name: Core Zone (Nova)
+variants: 0
+allowCorePlacement: true
