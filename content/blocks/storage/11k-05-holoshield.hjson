@@ -1,0 +1,30 @@
+type: ForceProjector
+name: Holoshield
+description: Creates square shield that blocks enemy projectile, requires cryogenics and power.
+size: 3
+health: 1500
+sides: 4
+radius: 150
+shieldRotation: 45
+shieldHealth: 3000
+cooldownNormal: 1
+cooldownLiquid: 1.2
+cooldownBrokenBase: 1.25
+category: effect
+squareSprite: false
+research: 0011-effect
+requirements: [
+  01a-01-item-cobalt/300
+  01a-02-item-nickel/80
+  01a-05-item-aluminium/120
+  01a-06-item-chromium/200
+  01a-07-item-clevorite/120
+]
+consumes: {
+  power: 4
+  liquids: [
+  02b-02-a-purified-elixir/0.08333333333
+  ]
+}
+armor: 5
+researchCostMultiplier: 0.5

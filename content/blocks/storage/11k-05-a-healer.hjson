@@ -1,0 +1,43 @@
+type: RegenProjector
+name: Auto Repairer
+description: Automatically repairs blocks in range, requires cryogenics and power.
+size: 3
+range: 30
+healPercent: 0.04
+health: 850
+baseColor: f9e1f3
+hasPower: false
+hasItems: false
+requirements: [
+  01a-01-item-cobalt/150
+  01a-05-item-aluminium/120
+  01a-06-item-chromium/80
+  01a-07-item-clevorite/50
+]
+squareSprite: false
+category: effect
+research: 11k-05-holoshield
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+liquidCapacity: 20
+consumes: {
+  power: 2
+  liquids: [
+    02b-02-a-purified-elixir/0.08333333333
+    ]
+}
