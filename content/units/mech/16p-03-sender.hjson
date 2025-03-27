@@ -1,0 +1,106 @@
+type: legs
+name: Sender
+description: Fires barrages of missiles at enemies. Can walk on almost all terrain.
+legCount: 6
+lockLegBase: true
+legExtension: -3
+legBaseOffset: 3
+legLength: 22
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.2
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+groundLayer: 60
+health: 3400
+armor: 8
+allowLegStep: true
+speed: 0.7
+hitSize: 15
+drag: 0.1
+rotateSpeed: 1.8
+itemCapacity: 20
+outlineColor: 26262F
+research: 10j-07-unitupgrader
+researchCostMultiplier: 1
+weapons: [
+  {
+    x: 0
+    y: -3
+    mirror: false
+    rotate: true
+    rotationLimit: 50
+    rotateSpeed: 1.3
+    reload: 45
+    shootSound: shoot-small-flame
+    name: sender-weapon
+    shootStatus: slow
+    shootStatusDuration: 45
+    shoot: {
+      barrels: [
+      -6, -0.75, 0,
+      -2, 0.25, 0 
+      2, 0.25, 0, 
+      6, -0.75, 0]
+      type: ShootBarrel
+      shots: 4
+      shotDelay: 6
+      }
+    bullet: {
+      pierceArmor: true
+      type: MissileBulletType
+      width: 7
+      height: 9
+      homingPower: 0.05
+      homingDelay: 30
+      homingRange: 120
+      speed: 4
+      lifetime: 55
+      hitEffect: blastExplosion
+      despawnHit: true
+      damage: 25
+      splashDamage: 20
+      splashDamageRadius: 24
+      fragBullets: 1
+      fragBullet: {
+        type: MissileBulletType
+        pierceArmor: true
+        width: 0
+        height: 0
+        speed: 0
+        lifetime: 0
+        hitEffect: blastExplosion
+        despawnHit: true
+        damage: 0
+        status: shocked
+        lightning: 2
+        lightningDamage: 2
+      }
+    }
+  }
+    {
+    x: 12
+    y: -6
+    reload: 12
+    mirror: true
+    alternate: true
+    targetInterval: 9
+    targetSwitchInterval: 12
+    recoil: 0.5
+    name: sender-debuff-weapon
+    shootY: 1
+    type: PointDefenseWeapon
+    bullet: {
+      type: BulletType
+      shootSound: lasershoot
+      shootEffect: sparkShoot
+      hitEffect: pointHit
+      maxRange: 135
+      damage: 42
+    }
+  }
+]

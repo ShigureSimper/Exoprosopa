@@ -1,0 +1,89 @@
+type: legs
+name: Carragher
+description: Fires piercing laser shotgun at enemies. Can walk on almost all terrain.
+legCount: 6
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 26
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.2
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+groundLayer: 60
+health: 9000
+armor: 14
+allowLegStep: true
+legSplashDamage: 30
+legSplashRange: 20
+speed: 0.65
+hitSize: 20
+drag: 0.1
+itemCapacity: 20
+outlineColor: 26262F
+research: 10j-10-unitassembler-mech
+researchCostMultiplier: 1
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.1
+    x: 0
+    y: -2.4
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 3
+  }
+]
+weapons: [
+  {
+    x: 8
+    y: 0
+    mirror: true
+    alternate: true
+    reload: 45
+    shootSound: shotgun
+    name: carragher-weapon
+    shootStatusDuration: 60
+    bullet: {
+        type: ShrapnelBulletType
+        length: 90
+        width: 4
+        damage: 300
+        pierce: true
+        lifetime: 60
+        fromColor: fca988
+        toColor: d77751
+        status: 13m-01-breached
+        statusDuration: 180
+      }
+  }
+      {  
+      x: 0
+      y: 0
+      display: false
+      rotate: false
+      mirror: false
+      reload: 90
+      shootCone: 5
+      shootSound: none
+      bullet: {
+        width: 0
+        speed: 8
+        lifetime: 10
+        despawnEffect: none
+        hitEffect: none
+        height: 0
+        collides: false
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        recoil: -8
+        impact: true
+      }
+    }
+]
