@@ -1,0 +1,32 @@
+# Map Info
+mod.exoprosopa.name = 
+mod.exoprosopa.author = 
+mod.exoprosopa.description = 
+mod.exoprosopa.subtitle = 
+
+# Sectors
+sector.exoprosopa-19s-01-newgrounds.name =
+sector.exoprosopa-19s-01-newgrounds.description = 
+
+sector.exoprosopa-19s-02-mountain-ridge.name = 
+sector.exoprosopa-19s-02-mountain-ridge.description = 
+
+sector.exoprosopa-19s-03-a-luminary.name = 
+sector.exoprosopa-19s-03-a-luminary.description = 
+
+sector.exoprosopa-19s-03-hostile-outpost.name = 
+sector.exoprosopa-19s-03-hostile-outpost.description = 
+
+sector.exoprosopa-19s-04-foggy-fields.name = 
+sector.exoprosopa-19s-04-foggy-fields.description = 
+
+sector.exoprosopa-19s-05-reservoir.name = 
+sector.exoprosopa-19s-05-reservoir.description = 
+
+sector.exoprosopa-19s-06-crest.name = 
+sector.exoprosopa-19s-06-crest.description = 
+
+# Resources - Items
+item.exoprosopa-01a-01-item-cobalt.name = 
+item.exoprosopa-01a-01-item-cobalt.description = 
+
