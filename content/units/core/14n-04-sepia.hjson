@@ -1,0 +1,89 @@
+type: legs
+name: Sepia
+description: Protects the Crest Core, can build and retrieve resources faster. Can attack enemy units.
+controller: BuilderAI
+legCount: 4
+lockLegBase: true
+legExtension: -4
+legBaseOffset: 3
+legLength: 16
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.12
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+faceTarget: true
+health: 450
+armor: 3
+speed: 1.3
+mineWalls: true
+mineSpeed: 9
+mineTier: 1
+buildSpeed: 1.7
+accel: 0.09
+drag: 0.08
+groundLayer: 60
+shadowElevation: 0.1
+rotateSpeed: 4.5
+itemCapacity: 20
+outlineColor: 26262F
+fogRadius: 18
+range: 120
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 300
+    range: 50
+    amount: 15
+    max: 140
+  }
+]
+weapons: [
+  {
+    x: -3.5
+    y: 10.25
+    name: sepia-weapon
+    reload: 30
+    recoil: 1.5
+    mirror: true
+    rotate: false
+    alternate: false
+    shootSound: blaster
+    layerOffset: -0.002
+      bullet: { 
+      type: BasicBulletType
+      width: 4
+      splashDamageRadius: 20
+      splashDamage: 60
+      lifetime: 30
+      speed: 4
+      smokeEffect:shootSmokeSquare
+      trailColor: D8F18C
+      trailWidth: 2
+      trailLength: 3
+      trailParam: 1.6
+      trailInterval: 6
+      trailEffect: missileTrail
+      backColor: D8F18C
+      hitColor: D8F18C
+      buildingDamageMultiplier: 0.01
+      collidesTeam: true
+      healPercent: 2
+      fragbullets: 1
+      fragRandomSpread: 0
+        fragBullet: {
+        type: LightningBulletType
+        lightningLength: 2
+        damage: 6
+        pierce: false
+        pierceBuilding: false
+        lightningColor: D8F18C
+      }
+    }
+  }
+]
+research: 14n-04-coronis
