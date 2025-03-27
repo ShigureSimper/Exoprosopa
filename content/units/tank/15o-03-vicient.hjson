@@ -1,0 +1,76 @@
+type: tank
+name: Vicient
+description: Fires piercing cluster flares over a long distance at enemies.
+hitSize: 26
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 4400
+armor: 10
+template: TankUnitType
+speed: 0.65
+rotateSpeed: 2.2
+itemCapacity: 0
+outlineColor: 26262F
+treadPullOffset: 5
+treadRects: [
+  {
+    x: 6
+    y: -24
+    width: 13
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: vicient-weapon
+    reload: 80
+    mirror: false
+    rotate: true
+    rotateSpeed: 1.8
+    shootSound: bulk-shot
+    bullet: {
+      type: BasicBulletType
+      frontColor: 6BBDCB
+      backColor: 377A86
+      sprite: missile-large
+      despawnEffect: {
+        type: ExplosionEffect
+        smokeColor: 454545
+        sparkColor: 665c9f
+        waveColor: 93E2EE
+        waveStroke: 4
+        waveRad: 40
+        }
+      speed: 7.5
+      lifetime: 28
+      damage: 85
+      splashDamage: 35
+      splashDamageRadius: 25
+      width: 15
+      height: 15
+      trailChance: -1
+      trailColor: 93E2EE
+      shootEffect: shootSmall
+      trailLength: 6.5
+      trailWidth: 1.5
+      pierceCap: 4
+      fragSpread: 15
+      fragBullets: 4
+      fragBullet: {
+        type: BasicBulletType
+        sprite: missile-large
+        speed: 6
+        lifetime: 4
+        height: 15
+        width: 15
+        damage: 35
+        splashDamage: 35
+        splashDamageRadius: 25
+        pierceCap: 3
+      }
+    }
+  }
+]
