@@ -1,0 +1,5 @@
+damage: 0.25
+damageMultiplier: 1.25
+reloadMultiplier: 1.1
+speedMultiplier: 0.1
+dragMultiplier: 2
