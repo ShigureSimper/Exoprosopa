@@ -1,0 +1,62 @@
+type: GenericCrafter
+name: Elixir Autofreezer
+description: Purifies elixir faster than the elixir purifier. Additionally utilizes cobalt for higher efficiency.
+size: 3
+health: 650
+placeableLiquid: true
+liquidOutputDirections: [0]
+rotate: true
+quickRotate: true
+rotateDraw: false
+hasLiquids: true
+category: crafting
+consumes: {
+  items :[
+  01a-04-item-tantra-sand/5
+  01a-01-item-cobalt/1
+  ]
+  liquid: 02b-01-bioliquid/1.5
+  power: 2
+}
+outputLiquid: 02b-02-a-purified-elixir/0.6666666666
+liquidCapacity: 180
+requirements: [
+  01a-01-item-cobalt/120
+  01a-02-item-nickel/90
+  01a-05-item-aluminium/100
+  01a-06-item-chromium/80
+]
+craftTime: 60
+craftEffect: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: 02b-01-bioliquid
+    padding: 3
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: 02b-02-a-purified-elixir
+    padding: 3
+  }
+  {
+    type: DrawCrucibleFlame
+  }
+  {
+    type: DrawRegion
+  }
+  {
+    type: DrawSideRegion
+  }
+  ]
+}
+squareSprite: false
+research: 09i-02-elixir-converter
+researchCostMultiplier: 0.5
+itemCapacity: 20

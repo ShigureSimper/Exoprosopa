@@ -1,0 +1,88 @@
+type: GenericCrafter
+name: Aquanite Filter
+description: Use cryogenics and hydriyte to filter aquanite into cobalt and raw nichrome, outputs elixir as a byproduct.
+size: 4
+liquidCapacity: 119.5
+hasLiquids: true
+health: 1000
+category: crafting
+research: 09i-02-elixir-converter
+itemCapacity: 40
+researchCostMultiplier: 0.5
+requirements: [
+  01a-01-item-cobalt/80
+  01a-02-item-nickel/150
+  01a-05-item-aluminium/100
+  01a-06-item-chromium/150
+]
+craftTime: 60
+craftEffect: none
+outputItems: [
+  01a-05-item-raw-nichrome/4
+  01a-01-item-cobalt/2
+]
+outputLiquids: [
+  02b-01-bioliquid/0.25
+]
+consumes: {
+  items: [
+    01a-03-item-aquashard/6
+  ]
+  liquids: [
+    02b-02-a-purified-elixir/0.166666666
+    02b-05-hydrowater/1.33333333333
+  ]
+  power: 4
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padding: 10
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padLeft: 19.5
+      padTop: 19.5
+      padBottom: 2
+      padRight: 2
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padRight: 19.5
+      padBottom: 19.5
+      padTop: 2
+      padLeft: 2
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-05-hydrowater
+      padLeft: 19.5
+      padBottom: 19.5
+      padTop: 2
+      padRight: 2
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-05-hydrowater
+      padRight: 19.5
+      padTop: 19.5
+      padBottom: 2
+      padLeft: 2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false

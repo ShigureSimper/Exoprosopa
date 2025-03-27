@@ -1,0 +1,68 @@
+type: GenericCrafter
+name: Morphite Discharger
+description: Heats and discharge morphite to create morphitix plasma, requires miasma to heats and ichor to discharge morphite.
+size: 3
+liquidCapacity: 120
+hasLiquids: true
+health: 850
+category: crafting
+research: 09i-11-morphite-crystallizer
+itemCapacity: 10
+researchCostMultiplier: 0.5
+requirements: [
+  01a-05-item-aluminium/200
+  01a-06-item-chromium/150
+  01a-07-item-clevorite/80
+  01a-09-item-morphite/50
+]
+craftTime: 240
+craftEffect: none
+outputLiquids: [
+  02b-06-morphitix-plasma/0.3333333333
+]
+consumes: {
+  items: [
+    01a-09-item-morphite/1
+  ]
+  liquids: [
+    02b-02-ichor/0.25
+    02b-04-miasma/0.333333333
+  ]
+  power: 3
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 15
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      padRight: 1.5
+      padTop: 14
+      padBottom: 1.5
+      padLeft: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-06-morphitix-plasma
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false
