@@ -1,0 +1,6 @@
+type: StaticWall
+name: Tantriscape
+description: "Formed million years ago, Tantriscape contains a small energy from its crystal"
+attributes: {
+  tantra: 1
+}
