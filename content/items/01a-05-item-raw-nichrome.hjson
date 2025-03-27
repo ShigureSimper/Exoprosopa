@@ -1,5 +1,3 @@
-name: Raw Nichrome
-description: Contains fused nickel and chromium known as nichrome. Can be separated using elemental separator.
 color: A88B65
 hardness: 1
 lowPriority: true
