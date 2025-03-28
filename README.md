@@ -12,6 +12,6 @@
   With over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!<br>
 
   Thankyou for playing this mod!<br>
-  You can contributes maps or gives suggestion on Exoprosopa Server!<br><br>
+  You can contributes maps or give suggestions on Exoprosopa Server!<br><br>
   V0.6 TnmSpiroct
   
