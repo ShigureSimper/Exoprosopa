@@ -1,4 +1,4 @@
-# Exoprosopa : Early Access
+# Exoprosopa V0.6 Map Update.
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
