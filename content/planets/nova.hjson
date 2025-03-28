@@ -51,8 +51,8 @@ orbitRadius: 76
 orbitOffset: 102
 
 allowLaunchSchematics: false
-# allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
 allowSectorInvasion: false
 
 hasAtmosphere: true
