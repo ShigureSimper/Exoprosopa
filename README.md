@@ -11,6 +11,6 @@
   Including challenge maps!<br><br>
   With over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!<br>
   Thankyou for playing this mod!<br>
-  You can contributes maps or gives suggestions by join Exoprosopa Server!<br>
-  Check it on my profile. My username is TnmSpiroct on discord.<br><br>
-### Still in early access, expect some unfinished content.
+  You can contributes maps or givessuggestionsb on Exoprosopa Server!<br><br>
+  V0.6 TnmSpiroct
+  
