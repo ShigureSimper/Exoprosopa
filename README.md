@@ -9,8 +9,9 @@
   Exoprosopa adds frostnova planet into the game alongside with its own unique techtree and environment.<br><br>
   Conquer this planet with over 18 campaign maps available on this mod.<br>
   Including challenge maps!<br><br>
-  With over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!<br>
+  With over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!<br>
+
   Thankyou for playing this mod!<br>
-  You can contributes maps or givessuggestionsb on Exoprosopa Server!<br><br>
+  You can contributes maps or gives suggestion on Exoprosopa Server!<br><br>
   V0.6 TnmSpiroct
   
