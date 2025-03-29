@@ -25,7 +25,7 @@ requirements: [
 craftTime: 120
 craftEffect: none
 outputItems: [
-  01a-04-item-tantra-sand/10
+  01a-04-item-tantra-sand/12
 ]
 outputLiquids: [
   02b-01-bioliquid/0.5
