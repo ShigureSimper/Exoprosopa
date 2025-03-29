@@ -5,7 +5,7 @@ mesh: [
     {
     //aquabiome
     type: NoiseMesh
-    planet: nova
+    planet: frostnova
     divisions: 5
     seed: 1
     radius: 0.9
@@ -17,7 +17,7 @@ mesh: [
     {
     //cobaltbiome
     type: NoiseMesh
-    planet: nova
+    planet: frostnova
     divisions: 5
     seed: 1
     radius: 0.92
@@ -32,7 +32,7 @@ mesh: [
 cloudMesh: [
    {
    type: HexSkyMesh
-   planet: nova
+   planet: frostnova
    speed: 0.8
    radius: 0.042
    divisions: 6
@@ -50,9 +50,9 @@ sectorSize: 2
 orbitRadius: 76
 orbitOffset: 102
 
-allowLaunchSchematics: true
+allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: true
+allowLaunchLoadout: false
 allowSectorInvasion: false
 
 hasAtmosphere: true
