@@ -187,7 +187,6 @@ block.exoprosopa-04d-06-neutralizer.name =
 block.exoprosopa-04d-06-neutralizer.description = 
 
 # Liquid Blocks
-
 block.exoprosopa-06f-01-a-sea-conduit.name = 
 block.exoprosopa-06f-01-a-sea-conduit.description = 
 
@@ -222,7 +221,6 @@ block.exoprosopa-06f-09-nullifier.name =
 block.exoprosopa-06f-09-nullifier.description = 
 
 # Logic Blocks
-
 block.exoprosopa-12l-001-message-chip.name = 
 block.exoprosopa-12l-001-message-chip.description = 
 
@@ -248,7 +246,6 @@ block.exoprosopa-12l-06-axoxium-trophy.name =
 block.exoprosopa-12l-06-axoxium-trophy.description = 
 
 # Power Blocks
-
 block.exoprosopa-07g-01-powerline.name = 
 block.exoprosopa-07g-01-powerline.description = 
 
