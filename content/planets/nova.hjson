@@ -69,7 +69,7 @@ bloom: false
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: 11k-01-core-apex
-
+coreDestroyClear: true
 parent: sun
 solarSystem: sun
 tidalLock: true
