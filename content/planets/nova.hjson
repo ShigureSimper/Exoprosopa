@@ -50,7 +50,7 @@ sectorSize: 2
 orbitRadius: 76
 orbitOffset: 102
 
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: false
