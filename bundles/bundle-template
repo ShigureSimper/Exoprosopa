@@ -181,6 +181,9 @@ block.exoprosopa-04d-04-a-wall-shifter.description =
 block.exoprosopa-04d-04-b-aqua-dregder.name = 
 block.exoprosopa-04d-04-b-aqua-dregder.description = 
 
+block.exoprosopa-04d-04-b-aqua-extrator.name = 
+block.exoprosopa-04d-04-b-aqua-extrator.description = 
+
 block.exoprosopa-04d-04-bore-jet.name = 
 block.exoprosopa-04d-04-bore-jet.description = 
 
@@ -252,6 +255,9 @@ block.exoprosopa-12l-06-axoxium-trophy.description =
 # Power Blocks
 block.exoprosopa-07g-01-powerline.name = 
 block.exoprosopa-07g-01-powerline.description = 
+
+block.exoprosopa-07g-01-q-powerbeam.name = 
+block.exoprosopa-07g-01-q-powerbeam.description = 
 
 block.exoprosopa-07g-02-large-powerline.name = 
 block.exoprosopa-07g-02-large-powerline.description = 
@@ -411,6 +417,9 @@ block.exoprosopa-11k-05-holoshield.description =
 
 block.exoprosopa-11k-06-illuminator.name = 
 block.exoprosopa-11k-06-illuminator.description = 
+
+block.exoprosopa-11k-07-buoy.name = 
+block.exoprosopa-11k-07-buoy.description = 
 
 block.exoprosopa-91z-00-core-accelerator.name = 
 block.exoprosopa-91z-00-core-accelerator.description = 
