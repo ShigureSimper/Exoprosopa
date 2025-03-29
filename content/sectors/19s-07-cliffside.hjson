@@ -1,6 +1,6 @@
 captureWave: 12
 difficulty: 3
-planet: nova
+planet: frostnova
 sector: 38
 research: {
   parent: 19s-06-crest
