@@ -13,7 +13,7 @@ category: crafting
 consumes: {
   items :[
   01a-04-item-tantra-sand/18
-  01a-01-item-cobalt/2
+  01a-01-item-cobalt/4
   ]
   liquid: 02b-01-bioliquid/1.5
   power: 2
@@ -59,4 +59,4 @@ drawer: {
 squareSprite: false
 research: 09i-02-elixir-converter
 researchCostMultiplier: 0.5
-itemCapacity: 20
+itemCapacity: 36
