@@ -19,4 +19,4 @@ squareSprite: false
 itemCapacity: 4500
 unitCapModifier: 15
 research: 11k-04-a-core-crest
-researchCostMultiplier: 2
+researchCostMultiplier: 1.8
