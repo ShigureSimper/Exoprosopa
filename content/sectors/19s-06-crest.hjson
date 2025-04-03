@@ -1,12 +1,12 @@
 difficulty: 2
 planet: frostnova
-sector: 14
+sector: 17
 research: {
-  parent: 19s-05-reservoir
+  parent: 19s-03-hostile-outpost
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-05-reservoir
+      preset: 19s-03-hostile-outpost
     }
   ]
 }

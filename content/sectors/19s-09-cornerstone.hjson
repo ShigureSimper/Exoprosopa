@@ -1,12 +1,12 @@
-difficulty: 3
+difficulty: 6
 planet: frostnova
-sector: 16
+sector: 20
 research: {
-  parent: 19s-03-a-luminary
+  parent: 19s-07-cliffside
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-03-a-luminary
+      preset: 19s-07-cliffside
     }
   ]
 }
