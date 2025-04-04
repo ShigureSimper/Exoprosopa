@@ -6,58 +6,104 @@ mesh: [
     //aquabiome
     type: NoiseMesh
     planet: frostnova
-    divisions: 5
-    seed: 1
-    radius: 0.9
-    color1: 235A57
-    color2: 2A7667
-    octaves: 3.5
-    persistence: 1.1
+    divisions: 6
+    seed: 84
+    radius: 1.150
+    color1: 38ac9a
+    color2: 2a7667
+    octaves: 4
+    persistence: 0.9
     }
     {
     //cobaltbiome
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 1
-    radius: 0.92
-    color1: 252D40
-    color2: 384D6C
+    seed: 89
+    radius: 1.115
+    color1: 252d40
+    color2: 384d6c
     octaves: 3
-    persistence: 0.5
+    persistence: 1.1
     mag: 1.8
     scl: 7
+    }
+    {
+    //obsidianbiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 6
+    seed: 12
+    radius: 1.150
+    color1: 6f4f8c
+    color2: 4d3366
+    octaves: 4
+    persistence: 0.9
+    }
+    {
+    //tantrabiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 50
+    radius: 1.115
+    color1: 505e7f
+    color2: 303c58
+    octaves: 3
+    persistence: 1.1
+    }
+    {
+    //fleshbiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 28
+    radius: 1.130
+    color1: 703134
+    color2: 561f22
+    octaves: 3
+    persistence: 0.8
     }
 ]
 cloudMesh: [
    {
    type: HexSkyMesh
    planet: frostnova
-   speed: 0.8
-   radius: 0.042
+   speed: 1.11
+   radius: 0.194
    divisions: 6
-   color: E2EFFC60
+   color: e2effc60
    octaves: 3
    persistence: 0.3
-   scl: 0.78
+   scl: 0.8
    thresh: 0.45
-  }
+   }
+   {
+   type: HexSkyMesh
+   planet: frostnova
+   speed: 1.11
+   radius: 0.194
+   divisions: 6
+   color: e2effc60
+   octaves: 3
+   persistence: 0.4
+   scl: 0.8
+   thresh: 0.45
+   }
 ]
 radius: 1.2
 startSector: 0
 sectorSize: 2
-
-orbitRadius: 76
+orbitRadius: 78
 orbitOffset: 102
-
+minZoom: 0.8
 allowLaunchSchematics: false
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 allowLaunchLoadout: false
 allowSectorInvasion: false
 
 hasAtmosphere: true
-
-iconColor: B1D0F8
+iconColor: 98c1f5
 
 accessible: true
 visible: true
@@ -75,7 +121,7 @@ solarSystem: sun
 tidalLock: true
 orbitSpacing: 1
 
-enemyBuildSpeedMultiplier: 0.4
+enemyBuildSpeedMultiplier: 0.6
 
 launchCandidates: []
 itemWhitelist: [
