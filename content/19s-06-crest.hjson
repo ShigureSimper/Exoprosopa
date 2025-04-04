@@ -1,0 +1,12 @@
+difficulty: 3
+planet: frostnova
+sector: 16
+research: {
+  parent: 19s-03-hostile-outpost
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-03-hostile-outpost
+    }
+  ]
+}

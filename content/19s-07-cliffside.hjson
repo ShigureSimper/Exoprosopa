@@ -1,0 +1,13 @@
+captureWave: 12
+difficulty: 6
+planet: frostnova
+sector: 26
+research: {
+  parent: 19s-04-foggy-fields
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-04-foggy-fields
+    }
+  ]
+}
