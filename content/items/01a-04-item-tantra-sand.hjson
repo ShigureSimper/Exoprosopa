@@ -4,5 +4,4 @@ buildable: false
 lowPriority: true
 research: 01a-03-item-anthracite
 color: 6793D0
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
