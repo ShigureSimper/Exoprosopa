@@ -61,12 +61,4 @@ engines: [
       }
     }
 ]
-research: {
-  parent: 14n-01-anby
-  objectives: [
-    {
-      type: OnSector
-      preset: 19s-10-escarpment
-    }
-  ]
-}
+research: 14n-01-anby
